@@ -1,0 +1,24 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="label_cerveja_nome">Escolha suas opções.</string>
+    <string name="label_cerveja_estilo">Estilo: </string>
+    <string name="label_cerveja_preco">Preço: </string>
+    <string name="label_cerveja_cor">Cor: </string>
+    <string name="label_cerveja_pais">País: </string>
+
+
+    <!-- App-->
+    <string name="app_name">Consultar Voos</string>
+    <string name="urlBaseServidor">http://10.129.79.166:8080/ARQDESIS_Projeto2015/</string>
+    <string name="botao_enviar">Consultar</string>
+    <string name="main_label_origem">Origem</string>
+    <string name="main_label_destino">Destino</string>
+    <string name="empty" />
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_sim">SIM</string>
+    <string name="dialog_nao">NÃO</string>
+    <string name="progress_carregando">Carregando…</string>
+    <string name="lista_voo_title">Lista de Voos</string>
+    <string name="detalhe_voo_title">Detalhe do Voo</string>
+
+</resources>

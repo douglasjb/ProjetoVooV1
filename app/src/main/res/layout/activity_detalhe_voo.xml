@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/card_voos_lorigem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origem:"
+        />
+    <TextView
+        android:id="@+id/card_voos_origem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_lorigem"
+         />
+    <TextView
+        android:id="@+id/card_voos_ldestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino:"
+        android:layout_below="@+id/card_voos_origem"
+        />
+    <TextView
+        android:id="@+id/card_voos_destino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_ldestino"
+       />
+    <TextView
+        android:id="@+id/card_voos_ldata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_destino"
+        android:text="Data/Hora:"
+        />
+    <TextView
+        android:id="@+id/card_voos_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_ldata"
+        />
+
+
+    <TextView
+        android:id="@+id/card_voos_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/card_voos_data"
+
+        />
+
+    <TextView
+        android:id="@+id/card_voos_lvalor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_hora"
+        android:text="Valor:"
+        />
+
+    <TextView
+        android:id="@+id/card_voos_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_lvalor"
+        />
+    <TextView
+        android:id="@+id/card_voos_lsituacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_valor"
+        android:text="Situação"
+        />
+    <TextView
+        android:id="@+id/card_voos_situacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_voos_lsituacao"
+       />
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context="br.usjt.voo3ASINv1.controller.ListaVooActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/view_lista_voos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
